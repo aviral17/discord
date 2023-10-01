@@ -1,0 +1,27 @@
+Visit ---> https://ui.shadcn.com/docs/installation/next
+
+A) npx create-next-app@latest discord --typescript --tailwind --eslint
+Y(yes) |||||  No -> Yes -> No  
+
+
+B) npx shadcn-ui@latest init
+yes -> default -> Stone -> enter -> yes -> enter for all -> yes(we are working with react server component) -> y
+
+---------------------------------- *********************** --------------------------------------------------------------------------------------------------
+
+A) Also inside globals.css --> html,body, :root {height: 100%;}
+
+-------------------------------------------------------------------------------
+
+A) Following instructions of shadcn to install components like Button, dialog, etc
+
+NOTE: TODO: Don't forget to add  `.env` to .gitignore file as its .env*.local by default
+
+----------------------------------------------------------------------------------------
+
+
+************************** ----------------------------- ######################### ------------------------------------------
+NOTE:TODO:TIP:  
+
+Don't forget to put Image domains in next.config.js
+

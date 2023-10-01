@@ -1,0 +1,11 @@
+A) I am using pri...50...il.com email  for Clerk integration
+
+After setting up email providers and saving .env variables in .env file -------> https://clerk.com/docs/quickstarts/nextjs
+
+a) npm install @clerk/nextjs  b) Inside ROOT layout.tsx of app folder -----> mount <clerkprovider /> NOTE: That we have App router instead of Page Router 
+
+c) Add middleware.ts and add contents as per clerk instructions  
+
+d) Do follow the instructions and make sure to only copy the code of App Router instead of Page Router. Make sure you create sign-up or sign-in inside (routes) as per my way of doing it as keeping inside (routes) will have the same url in browser but it can be easily identified with (routes) className
+
+e) 

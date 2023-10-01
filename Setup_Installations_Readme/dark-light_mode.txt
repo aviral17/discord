@@ -1,0 +1,15 @@
+A) npm i next-themes
+
+B) inside components/providers/theme-provider.tsx (name as given by shadcn dark theme ---> https://ui.shadcn.com/docs/dark-mode/next), copy and paster theme-provider from shadcn-ui dark theme  
+
+C) Also in Root app layout.tsx, import ThemeProvider, dont import from @nextjs like...
+
+D) give attributes props to Themeprovider as per instructions and check page.tsx configured by me also use  suppressHydrationWarning
+
+E) Also add icon Step 4 (Add a mode toggle)
+
+F) NOTE: Now to add Light/Dark Mode icon ---> Go to main (root)/page.tsx homepage --> Add <ModeToggle /> there 
+
+TODO:  VV Important NOTE:, inside layout.tsx with <ThemeProvider />  ----> `system` theme only work when `enableSystemTheme = {true} and not {false}`
+
+TIP:  We can make enableSystemMode = {false} if we want by default Light mode but its not having by default Light mode or vice versa, meaning if things not working correctly, then make enableSystemMode = {false} 

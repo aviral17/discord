@@ -1,0 +1,4 @@
+A) npm i socket.io   and  npm i socket.io-client
+
+
+NOTE: That we will be using ---- nextjs 12  `pages` folder system as socket.io is having problem with nextjs 13 app structure right now, so for right now we can proceed with pages folder system

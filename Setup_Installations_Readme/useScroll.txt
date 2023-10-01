@@ -1,0 +1,1 @@
+So in hooks -> use-chat-scroll.ts, I have implemented the function, where when new message arrive in the channel chat and the user distance from the bottom chat is not too far, then the user will be scrolled to bottom automatically, but if user still forcefully going up to load messages at the top, then we can't stop/interrupt the user 

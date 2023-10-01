@@ -1,0 +1,14 @@
+We are using it for the video chat purposes
+
+Installation ---->  A)) Visit livekit.io  and click `cloud` -> get started for free  and signing with my pr..@mail.com... account same as planetscale account
+
+B)) name -> discord  C)) Add API in .env file and add these ------> 
+
+[Go to settings and add new key -> and paste Secret and API in the below 2 fields as per their name for Secret and the API]
+LIVEKIT_API_KEY=
+LIVEKIT_API_SECRET= 
+NEXT_PUBLIC_LIVEKIT_URL=<......livekit.cloud> on top after signing up
+
+D)) For the installation ---> Go to documentation in the below left corner ---> For nextjs 13 ---> `npm install livekit-server-sdk livekit-client @livekit/components-react @livekit/components-styles --save`
+
+E)) Create Token Endpoint as per instructions ---> Go to app/api/livekit/route.ts  and copy and paste to route.ts << Do check NEXT_PUBLIC_LIVEKIT_URL .env exact name

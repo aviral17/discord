@@ -1,0 +1,29 @@
+If getting error like -----> WebSocket connection to 'ws://localhost:3000/api/socket/io?EIO=4&transport=websocket&sid=wi6Gf3px_2Vb4wJyAAB5' failed:  ,  and in  Terminal like this:  code: 'UND_ERR_INVALID_ARG'
+
+Solution ---> A) Temporary Solution --->   go to hooks -> use-chat-query.ts --> 
+      // refetchInterval: isConnected ? false : 1000,
+         refetchInterval: 1000,
+
+         B) Permanent Solution --->  1)  "eslint-config-next": "13.4.12", "next": "13.4.12", [I have changed it from .19 to .12 to both in package.json] and npm i again
+                                     2) In next.config.js  ----->>
+
+                                     /** @type {import('next').NextConfig} */
+                                    const nextConfig = {
+                                    webpack: (config) => {
+                                        config.externals.push({
+                                        "utf-8-validate": "commonjs utf-8-validate",
+                                        bufferutil: "commonjs bufferutil",
+                                        });
+
+                                        return config;
+                                    },
+                                    images: {
+                                        domains: ["uploadthing.com", "utfs.io"],
+                                    },
+                                    };
+
+                                    module.exports = nextConfig;
+
+                                    
+
+

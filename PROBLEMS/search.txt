@@ -1,0 +1,1 @@
+When we search using cmd + k ---> when we search for general like general then its ok,  but when we type it like for example --> g  e  n  r  and then remove r and then write e,  still it wont show general or anything which is there in the server,  we need to clear the full text and type it again,  So please correct it

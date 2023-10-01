@@ -1,0 +1,14 @@
+A) npm i -D prisma -------> npx prisma init  (Thiscommand will set .env by default PostgreSql in our .env file)
+
+NOTE: Visit PlanetScale.com (using p....50@...com email)
+
+a) Create a new Database  b)  Connect and create a password  c) Select Prisma from dropdown and copy and paste database_url in .env of Mysql instead of postgresql
+d) Also select schema.prisma and copy and paste that in out schema.prisma
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Everytime we modify our ##### `schema.prisma`, we have to write the following commands in the terminal -----
+
+1) npx prisma generate  2)  npx prisma db push ---> [[[[ THIS will create all of the collections of prisma.schema into our `PlanetScale` or whatever we are using for our `MySql` Database like AWS Redshift or Azure or any Database  ]]]]   
+
+3) To use planetscale prisma,  run   `npx prisma studio`

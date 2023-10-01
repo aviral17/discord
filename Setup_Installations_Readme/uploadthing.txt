@@ -1,0 +1,13 @@
+A) For image uploads using ----> uploadthings (uploadthing.com)
+
+a) Create new app b) Fill App name and leave other field empty    c) Copy API Keys and paste it in .env
+
+NOTE: 
+
+B) Getting Started and install packages ---> a)  Again copy the packages like dropzones and install it  and b) We already setup the .env files so no need to check that again
+
+C) Inside Next.js setup App Router (app/) ---> Setting up File Router   and changing `core.ts` as per our requirements  and also for `route.ts` as per instructions
+
+D) Again, they asking to create file `uploadthing.ts` inside utils folder, but we keeping att utils type files inside lib folder so using lib folder instead of utils folder
+
+NOTE: Also dont forget to define the public routes in `middleware.ts`, check middleware.ts for more info
