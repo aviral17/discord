@@ -1,0 +1,7 @@
+We deployed the app at `railway.app` as vercel is serverless and so it does not support socket.io or websocket
+
+Now in railway.app ---->  We directly copy pasted all the environment variables at once 
+
+NOTE:TIP:TODO:  Note that We also need to add one EXTRA ENV variable which is not inside our .env file which is `NEXT_PUBLIC_SITE_URL=https://######-production-***a.up.railway.app` (Remember to Remove Slash after .app/ as it will make // for   path: "/api/socket/io"  which we are using in socket-provider.tsx) 
+
+Inside socket-provider.txt, we are using this variable, by Default its localhost, but in production, its address will be changed, so we only require it during production
