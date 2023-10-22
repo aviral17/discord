@@ -85,8 +85,8 @@ export const ChatInput = ({ apiUrl, query, name, type }: ChatInputProps) => {
                     {...field}
                   /> */}
                   <Input
-                    // disabled={isLoading}
-                    disabled
+                    disabled={isLoading}
+                    // disabled
                     className={`px-14 py-6 bg-zinc-200/90 dark:bg-zinc-700/75 border-none border-0 focus-visible:ring-0 focus-visible:ring-offset-0 ${
                       isLoading
                         ? "text-zinc-400 dark:text-zinc-500 opacity-50"
