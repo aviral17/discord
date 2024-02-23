@@ -9,6 +9,6 @@ d) Also select schema.prisma and copy and paste that in out schema.prisma
 
 Everytime we modify our ##### `schema.prisma`, we have to write the following commands in the terminal -----
 
-1) npx prisma generate  2)  npx prisma db push ---> [[[[ THIS will create all of the collections of prisma.schema into our `PlanetScale` or whatever we are using for our `MySql` Database like AWS Redshift or Azure or any Database  ]]]]   
+1) `npx prisma migrate reset` and then `npx prisma generate`  2)  npx prisma db push ---> [[[[ THIS will create all of the collections of prisma.schema into our `PlanetScale` or whatever we are using for our `MySql` Database like AWS Redshift or Azure or any Database  ]]]]   
 
 3) To use planetscale prisma,  run   `npx prisma studio`
