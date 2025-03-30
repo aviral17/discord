@@ -1,5 +1,6 @@
 import { NavigationSidebar } from "@/components/navigation/navigation-sidebar";
 
+// UPDATE nextjs to newer version
 const MainLayout = async ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="h-full">
