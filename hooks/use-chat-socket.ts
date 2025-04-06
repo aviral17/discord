@@ -4,6 +4,8 @@ import { Member, Message, Profile } from "@prisma/client";
 
 import { useSocket } from "@/components/providers/socket-provider";
 
+// Update the code for serverless computing so it can work with other servers instead of Vercel which doesn't  support realtime serverless computing and hence message delays.
+
 type ChatSocketProps = {
   addKey: string;
   updateKey: string;
