@@ -1,5 +1,7 @@
 import { auth } from "@clerk/nextjs";
 
+// *** correct it, update it as per latest changes
+
 import { db } from "@/lib/db";
 
 export const currentProfile = async () => {
