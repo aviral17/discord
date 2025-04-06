@@ -9,6 +9,8 @@ import { db } from "@/lib/db";
 
 // Message updates/deletes etc in Real time due to tan-stack query which falls back to polling if our Websocket fails for some milliseconds and updates the message with polling
 
+//*** Make it better, Remove the shortcomings and improve its overall performance
+
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponseServerIo
