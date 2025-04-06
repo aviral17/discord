@@ -1,3 +1,5 @@
+//***** Shift the app from Nextjs to Remix to deploy app on any suitable server and better performance insterad of just relying on nextjs and vercel and missing features like serverless computing for real time messages
+
 Visit ---> https://ui.shadcn.com/docs/installation/next
 
 A) npx create-next-app@latest discord --typescript --tailwind --eslint
