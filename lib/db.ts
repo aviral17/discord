@@ -1,5 +1,7 @@
 import { PrismaClient } from "@prisma/client";
 
+// Change DB to postgresql instead of mysql
+
 declare global {
   var prisma: PrismaClient | undefined;
 }
