@@ -48,6 +48,7 @@ export const MediaRoom = ({ chatId, video, audio }: MediaRoomProps) => {
     );
   }
 
+  // update it as per latest changes
   return (
     <LiveKitRoom
       data-lk-theme="default"
