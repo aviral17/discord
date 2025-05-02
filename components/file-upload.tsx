@@ -1,3 +1,5 @@
+// update it as per latest changes
+
 "use client";
 
 import { FileIcon, X } from "lucide-react";
