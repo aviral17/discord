@@ -16,6 +16,7 @@ interface ActionTooltipProps {
   align?: "start" | "center" | "end";
 }
 
+// update it as per latest changes
 export const ActionTooltip = ({
   label,
   children,
