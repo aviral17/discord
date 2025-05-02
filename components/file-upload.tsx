@@ -15,6 +15,7 @@ interface FileUploadProps {
   endpoint: "messageFile" | "serverImage"; // check `core.ts` and make sure it matches these 2 names exactly in initial-modal.tsx also
 }
 
+// update it as per latest changes
 export const FileUpload = ({ onChange, value, endpoint }: FileUploadProps) => {
   // exact same onChange, value, endpoint we have in fileupload in initial-modal.tsx
   const fileType = value?.split(".").pop();
