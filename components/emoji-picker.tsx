@@ -1,3 +1,5 @@
+// update it as per latest changes
+
 "use client";
 
 import { Smile } from "lucide-react";
