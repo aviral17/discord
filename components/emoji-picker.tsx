@@ -17,6 +17,7 @@ interface EmojiPickerProps {
   onChange: (value: string) => void;
 }
 
+// update it as per latest changes
 export const EmojiPicker = ({ onChange }: EmojiPickerProps) => {
   const { resolvedTheme } = useTheme();
 
