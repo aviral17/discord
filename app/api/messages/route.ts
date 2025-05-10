@@ -8,6 +8,7 @@ import { db } from "@/lib/db";
 
 const MESSAGES_BATCH = 10; // 10 messages at a time, we can also define any number like 50 messages at a time
 
+// updated file as per latest changes
 export async function GET(req: Request) {
   try {
     const profile = await currentProfile();
