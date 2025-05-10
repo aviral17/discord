@@ -1,3 +1,5 @@
+// updated file as per latest changes
+
 import "./globals.css";
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
