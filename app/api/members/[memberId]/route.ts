@@ -1,3 +1,5 @@
+// updated file as per latest changes
+
 import { NextResponse } from "next/server";
 
 import { currentProfile } from "@/lib/current-profile";
