@@ -1,3 +1,5 @@
+// updated file as per latest changes
+
 import { Hash } from "lucide-react";
 
 import { MobileToggle } from "@/components/mobile-toggle";
