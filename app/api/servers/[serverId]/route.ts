@@ -7,6 +7,7 @@ import { db } from "@/lib/db";
 
 // In Next.js 13, the names of the exported functions in a route.ts file correspond to the HTTP methods that the server will respond to for that route. The names GET, POST, PUT, PATCH, DELETE, HEAD, and OPTIONS are reserved for this purpose,  we can also use other names but that is not relevant in this case
 
+// updated file as per latest changes
 export async function DELETE(
   req: Request,
   { params }: { params: { serverId: string } }
