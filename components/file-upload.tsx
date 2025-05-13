@@ -60,7 +60,7 @@ export const FileUpload = ({ onChange, value, endpoint }: FileUploadProps) => {
     );
   }
 
-  // updated it as per latest changes
+  // update it as per latest changes
   return (
     <UploadDropzone
       endpoint={endpoint}
