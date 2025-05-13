@@ -15,7 +15,7 @@ interface MediaRoomProps {
   audio: boolean;
 }
 
-// updated it as per latest changes
+// update it as per latest changes
 export const MediaRoom = ({ chatId, video, audio }: MediaRoomProps) => {
   const { user } = useUser();
   const [token, setToken] = useState("");
