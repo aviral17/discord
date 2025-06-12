@@ -23,7 +23,7 @@ interface ChatInputProps {
   type: "conversation" | "channel"; // conversation means one-on-one or through channel where many members are there to interact
 }
 
-// updateddd file as per latest changes
+// updatedddddd file as per latest changes
 const formSchema = z.object({
   content: z.string().min(1),
 });
