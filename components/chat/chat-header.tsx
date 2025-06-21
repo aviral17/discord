@@ -15,7 +15,7 @@ interface ChatHeaderProps {
   imageUrl?: string;
 }
 
-// updatedddd file as per latest changes
+// updatedddsssd file as per latest changes
 export const ChatHeader = ({
   serverId,
   name,
