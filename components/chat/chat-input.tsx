@@ -39,7 +39,7 @@ export const ChatInput = ({ apiUrl, query, name, type }: ChatInputProps) => {
     },
   });
 
-  // updatedddd file as per latest changes
+  // updatedddddd file as per latest changes
   const isLoading = form.formState.isSubmitting;
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
