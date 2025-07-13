@@ -1,5 +1,5 @@
 // eslint-disable-next-line react-hooks/exhaustive-deps
-// updatedd file as per changes
+// update file as per changes
 
 "use client";
 
