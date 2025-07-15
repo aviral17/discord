@@ -1,4 +1,4 @@
-// update file as per latest changes
+// updated file as per latest changes
 
 import { Hash } from "lucide-react";
 
