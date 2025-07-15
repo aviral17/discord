@@ -103,7 +103,7 @@ export const ChatItem = ({
       await axios.patch(url, values);
 
       form.reset();
-      setIsEditing(false); // afterddd submitting the form, can't edit the form unless click edit icon again
+      setIsEditing(false); // after submitting the form, can't edit the form unless click edit icon again
     } catch (error) {
       console.log(error);
     }
